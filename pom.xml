@@ -107,7 +107,7 @@
             <artifactId>RedLib</artifactId>
             <version>6.5.2</version>
         </dependency>
-        <depen dency>
+        <dependency>
             <groupId>com.github.simplix-softworks</groupId>
             <artifactId>simplixstorage</artifactId>
             <version>3.2.4</version>
