@@ -1,0 +1,44 @@
+bank {
+    balance {
+        help show your balance
+        user player
+        hook balance
+    }
+
+    deposit string:sponge/all?* {
+        help deposits money
+        hook deposit
+        user player
+
+    }
+
+    withdraw string:sponge/all?* {
+        help withdraws money
+        hook withdraw
+        user player
+    }
+
+    pay offlinePlayer:target int:sponge* {
+        help pay a player money
+        hook pay
+        user player
+    }
+
+    set offlinePlayer:target int:sponge* {
+        help sets balance of user
+        hook set
+        permission thespongeeconomy.set
+    }
+
+    add offlinePlayer:taret int:sponge* {
+        help add adds sponges to balance of user
+        hook add
+        permission thespongeeconomy.add
+    }
+
+    remove offlinePlayer:target int:sponge* {
+        help removes sponges from balance
+        hook remove
+        permission thespongeeconomy.remove
+    }
+}

@@ -1,0 +1,11 @@
+# Infos
+name: TheSpongeEconomy
+version: '1.0'
+description: A working sponge economy system.
+author: OVClub
+api-version: 1.18
+
+# Data
+load: STARTUP
+main: thefruitbox.thespongeeconomy.TheSpongeEconomy
+depend: [Vault]
